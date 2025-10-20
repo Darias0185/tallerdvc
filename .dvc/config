@@ -1,0 +1,10 @@
+[core]
+    remote = s3_remote
+['remote "fuentelocal"']
+    url = /tmp/dvcstore
+['remote "local_remote"']
+    url = ../../remote_storage
+['remote "s3_remote"']
+    url = s3://labdvc-diegoad
+    profile = default
+    endpointurl = https://s3.amazonaws.com
